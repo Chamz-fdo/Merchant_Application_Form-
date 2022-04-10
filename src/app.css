@@ -1,0 +1,60 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 210vh;
+    background-color:#b5d6de; 
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    background-color:#d4f2ff;
+    padding: 100px 0px;
+    border-radius: 20px;
+}
+
+input{
+    width: 1000px;
+    border: none;
+    border-radius:  20px;
+}
+ 
+button{
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px 30px 10px 30px;
+    width: 500px;
+    background-color:#b5d6de; 
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 450px;
+}
+
+h3{
+    text-align: center;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"] {
+    border: solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+    margin-left:200px ;
+}
+
+hr{
+    width: 1010px;
+    margin-left: 200px;
+}
+ 
